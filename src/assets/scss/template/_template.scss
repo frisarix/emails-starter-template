@@ -1,0 +1,160 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Header
+// ------
+
+.header {
+  background: $header-background;
+  padding: 20px;
+  margin-bottom: 20px !important;
+
+  &__columns {
+    padding-bottom: 0 !important; 
+  }
+
+  &__wrapper-inner {
+    padding: 10px 15px;
+  }
+
+  &__container {
+    background-color: transparent !important;
+  }
+
+  &__logo {
+    max-width: 260px;
+    width: 100%;
+  }
+}
+
+// Container
+// ---------
+
+.container {
+  background-color: #fff;
+
+  &_transp {
+    background-color: transparent;
+  }
+}
+
+// Main-content
+table.main-container {
+  margin-top: 20px;
+}
+
+// Footer
+// ------
+
+.footer {
+  margin-top: 20px !important;
+}
+
+.footer-text {
+  font-size: 13px;
+}
+
+// Buttons
+table.button {
+
+  &.footer-button {
+    display: inline-block;
+
+    table {
+
+      td {
+
+        a {
+          width: 100px;
+          padding-left: 0;
+          padding-right: 0;
+          font-size: 12px;
+          text-align: center;
+          color: #333;
+        }
+      }
+    }
+
+    &:hover {
+
+      table  {
+
+        td {
+
+          a {
+            color: #333;
+          }
+        }
+      }
+    }
+  }
+
+  &.footer-button-white {
+
+    table {
+      
+      td {
+        background-color: #fff;
+      }
+    }
+  }
+
+  &.footer-button-grey {
+
+    table {
+      
+      td {
+        background-color: #ccc;
+      }
+    }
+  }
+}
+
+// Columns
+th,
+td {
+  .footer-columns {
+    padding-bottom: 0;
+  }
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+
+// Custom
+body, table.body, h1, h2, h3, h4, h5, h6, p, td, th, a {
+  font-family: Arial, Helvetica, sans-serif
+}
